@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Simple Weblog</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+        article {
+            background-color: #60b860; /* Pale Green */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: #c084fc; /* Soft Purple */
+        }
+        h1, h2 {
+            color: #c084fc; /* Soft Purple */
+        }
+        p {
+            line-height: 1.6;
+            color: #c084fc; /* Soft Purple */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Weblog</h1>
+            <p>Sharing thoughts, stories, and ideas ✨</p>
+        </header>
+
+        <article>
+            <h2>My first blog:</h2>
+            <p>This page is my first webblog post. You can see here my different interests, projects, and skills.</p>
+        </article>
+
+        <article>
+            <h2>Interests:</h2>
+            <p>I love reading—there’s something about reading that makes you understand human much deeper. 
+                I love watching movies, I'm a cinephile. I believe films are the closest thing we have to humanity. And History, you can't tell me you know me well without knowing history is my forte.</p>
+        </article>
+    </div>
+</body>
+</html>
